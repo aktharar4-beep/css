@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p.author::first-line{
+              font-weight: bold;
+        }
+        p.author::first-letter{
+            font-size: xx-large;
+            color: brown;
+        }
+        blockquote::before {
+            content: '"';
+            font-size: 2em;
+            color: gray;
+        }
+        a:hover{
+            color: aqua;
+        }
+        a:visited{
+            color: brown;
+        }
+        a{
+            color: blue;
+        }
+        div+h4{
+            color: pink;
+        }
+    </style>
+</head>
+<body>
+    <div class="blog-post">
+        <h1>Blog Post Title</h1>
+        <p class="author">By John Doe</p>   
+        <p class="content">This is the content of the blog post. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <blockquote>this is a blockquote</blockquote>
+        <p><a href="https://www.mashupstack.com/login">mashupstack</a></p>
+    </div>
+    h4
+    <div>
+        <h4>NEAR</h4>
+    </div>
+    <h4> this is the adjusent element</h4>
+</body>
+</html>
